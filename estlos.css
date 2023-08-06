@@ -75,7 +75,7 @@ padding: 10px 70px;
 
 .descubre{
     background-color: white;
-    width: 15%;
+    width: 117px;
     border-radius: 2em;
     text-decoration: none;
 text-align: center;
@@ -784,6 +784,11 @@ position: relative;
 
 
 @media (max-width: 900px){
+#fondo1{
+    height: 100vh;
+    background-position: right;
+}
+
 
     .cont2_fondo3{
         grid-template-columns: 1fr;
@@ -826,7 +831,7 @@ align-items: start;
 
 
 .descubre{
-    width: 60%;
+    width: 117px;
 }
 
     
