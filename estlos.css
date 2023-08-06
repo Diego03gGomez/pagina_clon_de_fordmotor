@@ -1,0 +1,941 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    
+}
+.cont_header{
+    background-color: white;
+    margin: -20px auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.links a{
+    color: #0a1159;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.iconos{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+.logo img{
+    width: 50%;
+}
+
+
+#fondo1{
+    background-image: url(/imagenes/primeraimagen.jpeg);
+margin: auto;
+width: 90%;
+height: 80vh;
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+}
+
+.cont_fondo1{
+   background-color:#0000006b;
+position: absolute;
+bottom: 0;
+display: flex;
+flex-direction: column;
+gap: 20px;
+width: 100%;
+padding: 10px 70px;
+
+}
+
+.cont_fondo1 h1{
+    font-size: 40px;
+}
+
+.descubre{
+    background-color: white;
+    width: 15%;
+    border-radius: 2em;
+    text-decoration: none;
+text-align: center;
+padding: 5px 0;
+color: black;
+font-weight: bold;
+}
+
+.cont_fondo1{
+    color: white;
+}
+
+.detalles{
+    color: white;
+    font-size: 15px;
+}
+.cont_fondo2{
+    margin: auto;
+    width: 80%;
+}
+.titulo_fondo2{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;;
+}
+
+
+/*ESTILOS PARA LA CARD*/
+.card1{
+    background-image: url(/imagenes/img1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+position: relative;
+}
+
+.card1 .titulo_card1{
+    position: absolute;
+    bottom: 0;
+    padding: 10px 40px;
+    color: white;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.329);
+}
+
+.card1 .titulo_card1 .botones{
+  /*  background-color: brown;*/
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.card1 .titulo_card1 .botones a:not(:last-child){
+    background-color: white;
+    border-radius: 2em;
+    text-decoration: none;
+    color: #0a1159;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+
+
+/*ESTILOS PARA LA CARD*/
+
+.card2{
+    background-image: url(/imagenes/img2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+position: relative;
+}
+
+.card2 .titulo_card1{
+    position: absolute;
+    bottom: 0;
+    padding: 10px 40px;
+    color: white;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.329);
+}
+
+.card2 .titulo_card1 .botones{
+  /*  background-color: brown;*/
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.card2 .titulo_card1 .botones a:not(:last-child){
+    background-color: white;
+    border-radius: 2em;
+    text-decoration: none;
+    color: #0a1159;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+/*ESTILOS PARA CARD*/
+
+
+
+/*ESTILOS PARA LA CARD*/
+
+.card3{
+    background-image: url(/imagenes/img3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+position: relative;
+}
+
+.card3 .titulo_card1{
+    position: absolute;
+    bottom: 0;
+    padding: 10px 40px;
+    color: white;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.329);
+}
+
+.card3 .titulo_card1 .botones{
+  /*  background-color: brown;*/
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.card3 .titulo_card1 .botones a:not(:last-child){
+    background-color: white;
+    border-radius: 2em;
+    text-decoration: none;
+    color: #0a1159;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+/*ESTILOS PARA CARD*/
+
+
+
+
+/*ESTILOS PARA LA CARD*/
+
+.card4{
+    background-image: url(/imagenes/img4.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+position: relative;
+}
+
+.card4 .titulo_card1{
+    position: absolute;
+    bottom: 0;
+    padding: 10px 40px;
+    color: white;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.329);
+}
+
+.card4 .titulo_card1 .botones{
+  /*  background-color: brown;*/
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.card4 .titulo_card1 .botones a:not(:last-child){
+    background-color: white;
+    border-radius: 2em;
+    text-decoration: none;
+    color: #0a1159;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+/*ESTILOS PARA CARD*/
+
+
+
+/*ESTILOS PARA LA CARD*/
+
+.card5{
+    background-image: url(/imagenes/img5.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+position: relative;
+}
+
+.card5 .titulo_card1{
+    position: absolute;
+    bottom: 0;
+    padding: 10px 40px;
+    color: white;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.329);
+}
+
+.card5 .titulo_card1 .botones{
+  /*  background-color: brown;*/
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.card5 .titulo_card1 .botones a:not(:last-child){
+    background-color: white;
+    border-radius: 2em;
+    text-decoration: none;
+    color: #0a1159;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+/*ESTILOS PARA CARD*/
+
+
+
+
+
+
+/*ESTILOS PARA LA CARD*/
+
+.card6{
+    background-image: url(/imagenes/img6.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+position: relative;
+}
+
+.card6 .titulo_card1{
+    position: absolute;
+    bottom: 0;
+    padding: 10px 40px;
+    color: white;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.329);
+}
+
+.card6 .titulo_card1 .botones{
+  /*  background-color: brown;*/
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.card6 .titulo_card1 .botones a:not(:last-child){
+    background-color: white;
+    border-radius: 2em;
+    text-decoration: none;
+    color: #0a1159;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+/*ESTILOS PARA CARD*/
+
+
+.normal{
+    cursor: pointer;
+    border-style: solid;
+    padding: 10px 20px;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-color: rgb(206, 206, 206);
+}
+
+
+.celeste{
+  border-color:dodgerblue;
+}
+
+.transparente{
+    background-color: #0a115909;
+    color: white;
+    border-color: white;
+    border-style: solid;
+    border-radius: 2em;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*
+.imagen_fondo3 img{
+    width: 100%;
+}
+.imagen_fondo3{
+    margin: auto;
+    width: 80%;
+}*/
+
+.des_fondo3{
+    margin: auto;
+    width: 80%;
+    font-size: 20px;
+    background-color:#001128;
+    color: white;
+    padding: 30px 0;
+    padding: 20px 20px;
+}
+
+.imagen_fondo3 img{
+    width: 100%;
+}
+
+.imagen_fondo3{
+    background-color: #001128;
+    margin-top: 50px;
+}
+
+.cont_fondo3{
+    margin:auto;
+    width: 80%;
+
+}
+.des_fondo3 a{
+    background-color:#0093F0;
+    color: white;
+    font-size: 18px;
+    border-radius: 2em;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+
+
+.cont2_fondo3{
+    margin:20px auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    background-color: #001128;
+    padding-top: 34px;
+    position: relative;
+    top: -27px;
+    padding: 10px 20px;
+}
+
+
+.img_fondo3 img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.card_fondo3{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.card_fondo3 .img_fondo3{
+    background-color: brown;
+    height: 400px;
+}
+
+
+.card_fondo3 a{
+    background-color: #0093F0;
+    color: white;
+    text-decoration: none;
+    border-radius: 2em;
+
+    font-weight: bold;
+    width: 37%;
+    text-align: center;
+    padding: 7px 0;
+}
+
+.card_fondo3 p{
+    flex-grow: 1;
+}
+
+
+.titulo_ante4{
+    margin: auto;
+    width: 80%;
+    padding-bottom: 30px;
+
+}
+
+.cont2_fondo3{
+    padding-bottom: 25px;
+}
+
+
+/*ESTILOS PARA EL FONDO 4*/
+
+.titulo_fondo4{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e3e3e3;
+    padding: 0 10px;
+}
+.titulo_fondo4 h2{
+    color: rgb(85, 85, 85);
+}
+
+#fondo4 hr{
+    margin: auto;
+    width: 80%;
+}
+
+
+.plus{
+    font-size: 20px;
+}
+
+
+.cont_input{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    background-color: #e3e3e3;
+    padding: 30px 10px;
+}
+.input{
+    position: relative;
+
+}
+.input input{
+    padding: 8px 30px;
+    font-size: 15px;
+    border-radius: 9px;
+}
+
+.lupa{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.marcas{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.marcas a{
+    font-weight: bold;
+    color: #001128;
+    text-decoration: none;
+}
+
+
+.columnas{
+    margin: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: #e3e3e3;
+    padding: 30px 20px;
+}
+
+.columna1, .columna2, .columna3, .columna4, .columna5{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.columna1 a, .columna2 a, .columna3 a, .columna4 a, .columna5 a{
+    text-decoration: none;
+    color: grey;
+    font-size: 15px;
+}
+
+
+
+.actualizaciones{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #0a1159;
+    background-color: #e3e3e3;
+    padding-inline-start: 0 10px;padding: 10px 10px;
+}
+
+
+.actualizaciones nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.actualizaciones nav i{
+    font-size: 30px;
+    color: #0a1159;
+}
+
+.icono_menu{
+    font-size: 30px;
+    display: none;
+}
+
+
+
+.menu_oculto{
+    position: fixed;
+    top: 80px;
+    background-color: white;
+    z-index: 998;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  /*  gap: 100px;*/
+   
+}
+
+.menu_oculto a{
+  /*  background-color: red;*/
+ margin: auto;
+    
+ margin-top: 40px;
+ width: 70%;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #001128;
+    font-size: 20px;
+
+}
+.icono{
+    position: relative;
+}
+
+
+.usuario{
+    position: absolute;
+    top: 70px;
+    right: 80px;
+    z-index: 997;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+
+.usuario a{
+    color: black;
+    text-decoration: none;
+}
+
+.icono_usuario{
+    cursor: pointer;
+}
+
+.fondo_oculto{
+    background-color: rgba(0, 0, 0, 0.884);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 996;
+}
+.cont_input_oculto{
+   /* background-color: brown;*/
+    margin: 400px auto;
+    width: 35%;
+    display: flex;
+    align-items: center;
+}
+
+.cont_input_oculto input{
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 30px;
+    background-color: rgba(255, 0, 0, 0);
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-color: white;
+    color: white;
+}
+
+.cerrar_buscador{
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.buscar{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1024px){
+
+
+    .cont2_fondo3{
+        width: 90%;
+    }
+
+    .des_fondo3{
+        width: 90%;
+    }
+
+    .cont_fondo2{
+        width: 90%;
+    }
+
+    .cont_fondo3{
+        width: 90%;
+        
+    }
+
+    .titulo_ante4{
+        width: 90%;
+    }
+
+.columnas{
+    grid-template-columns: 1fr 1fr;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 900px){
+
+    .cont2_fondo3{
+        grid-template-columns: 1fr;
+    }
+
+    .titulo_fondo2{
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+
+.cont_input{
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 30px;
+}
+.input {
+    width: 100%;
+  
+}
+
+.input input{
+    width: 70%;
+}
+
+.marcas{
+ 
+    width: 100%;
+    flex-direction: column;
+align-items: start;
+}
+
+.columnas{
+    grid-template-columns: 1fr;
+}
+
+.actualizaciones{
+    flex-direction: column;
+}
+
+
+.descubre{
+    width: 60%;
+}
+
+    
+.card1 .titulo_card1 .botones a:not(:last-child) {
+    background-color: white;
+    border-radius: 2em;
+    text-decoration: none;
+    color: #0a1159;
+    font-weight: bold;
+    padding: 5px 0px;
+    width: 198px;
+    text-align: center;
+}
+.card2 .titulo_card1 .botones a:not(:last-child) {
+    background-color: white;
+    border-radius: 2em;
+    text-decoration: none;
+    color: #0a1159;
+    font-weight: bold;
+    padding: 5px 0px;
+    width: 198px;
+    text-align: center;
+}
+.card3 .titulo_card1 .botones a:not(:last-child) {
+    background-color: white;
+    border-radius: 2em;
+    text-decoration: none;
+    color: #0a1159;
+    font-weight: bold;
+    padding: 5px 0px;
+    width: 198px;
+    text-align: center;
+}
+.card4 .titulo_card1 .botones a:not(:last-child) {
+    background-color: white;
+    border-radius: 2em;
+    text-decoration: none;
+    color: #0a1159;
+    font-weight: bold;
+    padding: 5px 0px;
+    width: 198px;
+    text-align: center;
+}
+.card5 .titulo_card1 .botones a:not(:last-child) {
+    background-color: white;
+    border-radius: 2em;
+    text-decoration: none;
+    color: #0a1159;
+    font-weight: bold;
+    padding: 5px 0px;
+    width: 198px;
+    text-align: center;
+}
+.card6 .titulo_card1 .botones a:not(:last-child) {
+    background-color: white;
+    border-radius: 2em;
+    text-decoration: none;
+    color: #0a1159;
+    font-weight: bold;
+    padding: 5px 0px;
+    width: 198px;
+    text-align: center;
+}
+
+.transparente{
+    padding: 5px 0;
+}
+.links{
+    display: none;
+}
+
+.iconos{
+    display: none;
+}
+.icono_menu{
+    display: initial;
+    cursor: pointer;
+}
+
+.card_fondo3 a{
+    width: 49%;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.cont_header{
+    width: 90%;
+}
+
+.botones{
+    flex-direction: column;
+}
+
+.transparente{
+    width: 50%;
+    padding: 5px 20px;
+    text-align: center;
+}
+
+
+
+}
+
+
+
+
+
+
+
