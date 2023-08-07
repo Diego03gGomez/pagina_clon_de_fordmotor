@@ -957,7 +957,23 @@ font-size: 14px;
     .transparente{
         width: 220px;
     }
+
+
+
+    .titulo_fondo2{
+        grid-template-columns: 1fr 1fr;
+    }
+.card_fondo3 a{
+    width: 73%;
 }
+
+}
+
+
+
+
+
+
 
 
 
