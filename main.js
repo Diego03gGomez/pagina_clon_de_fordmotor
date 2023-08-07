@@ -114,13 +114,14 @@ card6.fadeIn(200);
 $(".icono_menu").click(function (e) { 
     e.preventDefault();
 
-$(".menu_oculto").toggle();
+/*$(".menu_oculto").toggle();*/
+$(".menu_oculto").toggleClass("trasladar");
     
     
 });
 
 
-$(".menu_oculto").hide();
+
 
 
 

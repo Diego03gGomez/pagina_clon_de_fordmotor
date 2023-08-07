@@ -588,6 +588,7 @@ position: relative;
 
 
 .menu_oculto{
+    transition: all 0.40s;
     position: fixed; 
     top: 0px;
     background-color: white;
@@ -595,14 +596,20 @@ position: relative;
    /* display: flex;*/
     flex-direction: column;
     float: right;
-    width: 100%;
+    width: 1%;
     height: 100%;
     text-align: center;
     align-items: center;
     justify-content: center;
-  /*  gap: 100px;*/
-   
+  /*  gap: 100px;*/opacity: 0;
+
 }
+
+.trasladar{
+    width: 100%;
+    opacity: 1;
+}
+
 
 .menu_oculto a{
   /*  background-color: red;*/
@@ -670,6 +677,11 @@ position: relative;
     border-color: white;
     color: white;
 }
+
+.cont_input_oculto input:focus{
+    outline: none;
+}
+
 
 .cerrar_buscador{
     font-size: 30px;
