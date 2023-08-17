@@ -601,13 +601,13 @@ position: relative;
     text-align: center;
     align-items: center;
     justify-content: center;
-  /*  gap: 100px;*/opacity: 0;
+  /*  gap: 100px;*/display: none;
 
 }
 
 .trasladar{
     width: 100%;
-    opacity: 1;
+    display: initial;
 }
 
 
@@ -982,6 +982,20 @@ font-size: 14px;
 }
 
 
+
+@media (max-width: 450px){
+    .titulo_fondo4{
+        flex-direction: column;
+    }
+
+    .actualizaciones nav{
+        flex-direction: column;
+    }
+
+    .input input{
+        width: 100%;
+    }
+}
 
 
 
