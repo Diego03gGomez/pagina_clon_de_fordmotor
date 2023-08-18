@@ -753,7 +753,25 @@ position: relative;
 .columnas{
     grid-template-columns: 1fr 1fr;
 }
+.titulo_fondo4{
+    width: 90%;
+}
 
+#fondo4 hr{
+    width: 90%;
+}
+
+.cont_input{
+    width: 90%;
+}
+
+.columnas{
+    width: 90%;
+}
+
+.actualizaciones{
+    width: 90%;
+}
 
 }
 
